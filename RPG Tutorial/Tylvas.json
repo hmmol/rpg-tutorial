@@ -1,0 +1,32 @@
+{
+	"agility" : 4,
+	"className" : "Fighter",
+	"equipped_armor" : "nullptr",
+	"equipped_weapon" : "nullptr",
+	"evasion" : 0.015625,
+	"hp" : 11,
+	"hp_max" : 15,
+	"inventory" : {
+		"armor" : [
+			[
+				"armor_leather",
+				1
+			]
+		],
+		"items" : [
+			[
+				"item_gold_coin",
+				105
+			],
+			[
+				"item_iron_key",
+				1
+			]
+		],
+		"weapons" : []
+	},
+	"level" : 1,
+	"name" : "Tylvas",
+	"strength" : 5,
+	"xp" : 1
+}

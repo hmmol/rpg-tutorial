@@ -5,22 +5,39 @@ VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RPG Tutorial", "RPG Tutorial\RPG Tutorial.vcxproj", "{B102ACA5-B88B-4599-970C-721DE2B2A0BF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{509360B2-A60C-402A-B9DB-16FD7BC03167}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\Program Files (x86)\Notepad++\ToDo.txt = ..\..\..\..\..\Program Files (x86)\Notepad++\ToDo.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		MinSizeRel|x64 = MinSizeRel|x64
+		MinSizeRel|x86 = MinSizeRel|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		RelWithDebInfo|x64 = RelWithDebInfo|x64
+		RelWithDebInfo|x86 = RelWithDebInfo|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Debug|x64.ActiveCfg = Debug|x64
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Debug|x64.Build.0 = Debug|x64
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Debug|x86.ActiveCfg = Debug|Win32
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Debug|x86.Build.0 = Debug|Win32
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.MinSizeRel|x64.ActiveCfg = Release|x64
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.MinSizeRel|x64.Build.0 = Release|x64
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.MinSizeRel|x86.ActiveCfg = Release|Win32
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.MinSizeRel|x86.Build.0 = Release|Win32
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Release|x64.ActiveCfg = Release|x64
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Release|x64.Build.0 = Release|x64
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Release|x86.ActiveCfg = Release|Win32
 		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.Release|x86.Build.0 = Release|Win32
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.RelWithDebInfo|x64.ActiveCfg = Release|x64
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.RelWithDebInfo|x64.Build.0 = Release|x64
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.RelWithDebInfo|x86.ActiveCfg = Release|Win32
+		{B102ACA5-B88B-4599-970C-721DE2B2A0BF}.RelWithDebInfo|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

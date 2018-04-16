@@ -1,0 +1,32 @@
+{
+	"area_01" : {
+		"creatures" : [],
+		"doors" : [
+			[
+				"door_01_02",
+				-1
+			]
+		],
+		"inventory" : {
+			"armor" : [],
+			"items" : [],
+			"weapons" : []
+		}
+	},
+	"area_02" : {
+		"creatures" : [
+			"creature_rat"
+		],
+		"doors" : [],
+		"inventory" : {
+			"armor" : [],
+			"items" : [
+				[
+					"item_gold_coin",
+					100
+				]
+			],
+			"weapons" : []
+		}
+	}
+}

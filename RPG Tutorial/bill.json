@@ -1,0 +1,32 @@
+{
+	"agility" : 5,
+	"className" : "Rogue",
+	"equipped_armor" : "armor_leather",
+	"equipped_weapon" : "nullptr",
+	"evasion" : 0.015625,
+	"hp" : 15,
+	"hp_max" : 15,
+	"inventory" : {
+		"armor" : [
+			[
+				"armor_leather",
+				1
+			]
+		],
+		"items" : [
+			[
+				"item_gold_coin",
+				5
+			],
+			[
+				"item_iron_key",
+				1
+			]
+		],
+		"weapons" : []
+	},
+	"level" : 1,
+	"name" : "bill",
+	"strength" : 4,
+	"xp" : 0
+}

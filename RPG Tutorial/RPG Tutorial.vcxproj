@@ -90,12 +90,12 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\VS-build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\templ\source\repos\RPG Tutorial\RPG Tutorial;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\VS-build;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\VS-build\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -104,11 +104,15 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\templ\source\repos\RPG Tutorial\RPG Tutorial\JsonBox;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExpandAttributedSource>false</ExpandAttributedSource>
+      <LanguageStandard>
+      </LanguageStandard>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
@@ -120,11 +124,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
-      <SubSystem>Windows</SubSystem>
+      <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -149,19 +153,62 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\..\..\VS-build\Export.h" />
+    <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\JsonWritingError.h" />
+    <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\OutputFilter.h" />
+    <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\SolidusEscaper.h" />
+    <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\Value.h" />
+    <ClInclude Include="Area.h" />
+    <ClInclude Include="Armor.h" />
+    <ClInclude Include="Battle.h" />
+    <ClInclude Include="Creature.h" />
+    <ClInclude Include="Dialogue.h" />
+    <ClInclude Include="Door.h" />
+    <ClInclude Include="Entity Manager.h" />
+    <ClInclude Include="Entity.h" />
+    <ClInclude Include="Inventory.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="JsonBox\Convert.h" />
+    <ClInclude Include="JsonBox\Escaper.h" />
+    <ClInclude Include="JsonBox\Export.h" />
+    <ClInclude Include="JsonBox\Grammar.h" />
+    <ClInclude Include="JsonBox\IndentCanceller.h" />
+    <ClInclude Include="JsonBox\Indenter.h" />
+    <ClInclude Include="JsonBox\JsonParsingError.h" />
+    <ClInclude Include="JsonBox\Value.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="RPG Tutorial.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="Weapon.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Area.cpp" />
+    <ClCompile Include="Battle.cpp" />
+    <ClCompile Include="Convert.cpp" />
+    <ClCompile Include="Creature.cpp" />
+    <ClCompile Include="Door.cpp" />
+    <ClCompile Include="EntityManager.cpp" />
+    <ClCompile Include="Escaper.cpp" />
+    <ClCompile Include="IndentCanceller.cpp" />
+    <ClCompile Include="Indenter.cpp" />
+    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="JsonParsingError.cpp" />
+    <ClCompile Include="JsonWritingError.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="RPG Tutorial.cpp" />
+    <ClCompile Include="Armor.cpp" />
+    <ClCompile Include="SolidusEscaper.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Value.cpp" />
+    <ClCompile Include="Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="RPG Tutorial.rc" />
@@ -169,6 +216,14 @@
   <ItemGroup>
     <Image Include="RPG Tutorial.ico" />
     <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Areas.json" />
+    <None Include="Armor.json" />
+    <None Include="Creatures.json" />
+    <None Include="Doors.json" />
+    <None Include="Items.json" />
+    <None Include="Weapon.json" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
