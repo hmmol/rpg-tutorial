@@ -158,60 +158,60 @@
     <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\OutputFilter.h" />
     <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\SolidusEscaper.h" />
     <ClInclude Include="..\..\..\..\Downloads\JsonBox-master\JsonBox-master\include\JsonBox\Value.h" />
-    <ClInclude Include="Area.h" />
-    <ClInclude Include="Armor.h" />
-    <ClInclude Include="Battle.h" />
-    <ClInclude Include="Creature.h" />
-    <ClInclude Include="Dialogue.h" />
-    <ClInclude Include="Door.h" />
-    <ClInclude Include="Entity Manager.h" />
-    <ClInclude Include="Entity.h" />
-    <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Item.h" />
-    <ClInclude Include="JsonBox\Convert.h" />
-    <ClInclude Include="JsonBox\Escaper.h" />
-    <ClInclude Include="JsonBox\Export.h" />
-    <ClInclude Include="JsonBox\Grammar.h" />
-    <ClInclude Include="JsonBox\IndentCanceller.h" />
-    <ClInclude Include="JsonBox\Indenter.h" />
-    <ClInclude Include="JsonBox\JsonParsingError.h" />
-    <ClInclude Include="JsonBox\Value.h" />
-    <ClInclude Include="Player.h" />
-    <ClInclude Include="Resource.h" />
-    <ClInclude Include="RPG Tutorial.h" />
-    <ClInclude Include="stdafx.h" />
-    <ClInclude Include="targetver.h" />
-    <ClInclude Include="Weapon.h" />
+    <ClInclude Include="src\Area.h" />
+    <ClInclude Include="src\Armor.h" />
+    <ClInclude Include="src\Battle.h" />
+    <ClInclude Include="src\Creature.h" />
+    <ClInclude Include="src\Dialogue.h" />
+    <ClInclude Include="src\Door.h" />
+    <ClInclude Include="src\Entity Manager.h" />
+    <ClInclude Include="src\Entity.h" />
+    <ClInclude Include="src\Inventory.h" />
+    <ClInclude Include="src\Item.h" />
+    <ClInclude Include="src\JsonBox\Convert.h" />
+    <ClInclude Include="src\JsonBox\Escaper.h" />
+    <ClInclude Include="src\JsonBox\Export.h" />
+    <ClInclude Include="src\JsonBox\Grammar.h" />
+    <ClInclude Include="src\JsonBox\IndentCanceller.h" />
+    <ClInclude Include="src\JsonBox\Indenter.h" />
+    <ClInclude Include="src\JsonBox\JsonParsingError.h" />
+    <ClInclude Include="src\JsonBox\Value.h" />
+    <ClInclude Include="src\Player.h" />
+    <ClInclude Include="src\Resource.h" />
+    <ClInclude Include="src\RPG Tutorial.h" />
+    <ClInclude Include="src\stdafx.h" />
+    <ClInclude Include="src\targetver.h" />
+    <ClInclude Include="src\Weapon.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Area.cpp" />
-    <ClCompile Include="Battle.cpp" />
-    <ClCompile Include="Convert.cpp" />
-    <ClCompile Include="Creature.cpp" />
-    <ClCompile Include="Door.cpp" />
-    <ClCompile Include="EntityManager.cpp" />
-    <ClCompile Include="Escaper.cpp" />
-    <ClCompile Include="IndentCanceller.cpp" />
-    <ClCompile Include="Indenter.cpp" />
-    <ClCompile Include="Inventory.cpp" />
-    <ClCompile Include="Item.cpp" />
-    <ClCompile Include="JsonParsingError.cpp" />
-    <ClCompile Include="JsonWritingError.cpp" />
-    <ClCompile Include="Player.cpp" />
-    <ClCompile Include="RPG Tutorial.cpp" />
-    <ClCompile Include="Armor.cpp" />
-    <ClCompile Include="SolidusEscaper.cpp" />
-    <ClCompile Include="stdafx.cpp">
+    <ClCompile Include="src\Area.cpp" />
+    <ClCompile Include="src\Battle.cpp" />
+    <ClCompile Include="src\Convert.cpp" />
+    <ClCompile Include="src\Creature.cpp" />
+    <ClCompile Include="src\Door.cpp" />
+    <ClCompile Include="src\EntityManager.cpp" />
+    <ClCompile Include="src\Escaper.cpp" />
+    <ClCompile Include="src\IndentCanceller.cpp" />
+    <ClCompile Include="src\Indenter.cpp" />
+    <ClCompile Include="src\Inventory.cpp" />
+    <ClCompile Include="src\Item.cpp" />
+    <ClCompile Include="src\JsonParsingError.cpp" />
+    <ClCompile Include="src\JsonWritingError.cpp" />
+    <ClCompile Include="src\Player.cpp" />
+    <ClCompile Include="src\RPG Tutorial.cpp" />
+    <ClCompile Include="src\Armor.cpp" />
+    <ClCompile Include="src\SolidusEscaper.cpp" />
+    <ClCompile Include="src\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Value.cpp" />
-    <ClCompile Include="Weapon.cpp" />
+    <ClCompile Include="src\Value.cpp" />
+    <ClCompile Include="src\Weapon.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ResourceCompile Include="RPG Tutorial.rc" />
+    <ResourceCompile Include="src\RPG Tutorial.rc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="RPG Tutorial.ico" />
